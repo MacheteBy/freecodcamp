@@ -1,3 +1,5 @@
+//freecodecamp js task
+
 function checkObj(obj, checkProp) {
     if(obj.hasOwnProperty(checkProp) === true){
       return obj[checkProp];
@@ -8,3 +10,7 @@ function checkObj(obj, checkProp) {
   }
 
   console.log(checkObj({gift: "pony", pet: "kitten", bed: "sleigh"}, "gift"));
+
+  //freecodecamp js task
+
+  
