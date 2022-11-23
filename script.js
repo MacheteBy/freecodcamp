@@ -284,3 +284,12 @@ return "No such contact";
   
     return Math.floor(Math.random() * 10);
   }
+
+
+   //freecodecamp js task
+
+   function randomRange(myMin, myMax) {
+    return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
+  }
+
+  console.log(randomRange(2, 5));
