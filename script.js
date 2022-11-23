@@ -325,3 +325,21 @@ function checkSign(num) {
       : num < 0 ? "negative"
       : "zero";
   }
+
+  function countdown(n) {
+    if (n < 1) {
+      return [];
+    } else {
+      const arr = countdown(n - 1);
+      arr.unshift(n);
+      return arr;
+    }
+  }
+
+//freecodecamp js task
+
+function rangeOfNumbers(startNum, endNum) {
+    return endNum < startNum
+      ? []
+      : rangeOfNumbers(startNum, endNum - 1).concat(endNum);
+  }
