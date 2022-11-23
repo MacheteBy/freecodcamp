@@ -293,3 +293,14 @@ return "No such contact";
   }
 
   console.log(randomRange(2, 5));
+
+     //freecodecamp js task
+
+     function convertToInteger(str) {
+        return parseInt(str);
+    }
+    
+    convertToInteger("56");
+
+//freecodecamp js task
+
