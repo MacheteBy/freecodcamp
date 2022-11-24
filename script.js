@@ -405,3 +405,18 @@ const createPerson = (name, age, gender) => {
 };
 
 console.log(createPerson("Zodiac Hasbro", 56, "male"));
+
+
+
+//freecodecamp js task
+
+// Only change code below this line
+class Vegetable  {
+  constructor(target){
+    this.target = target;
+  }
+}
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
