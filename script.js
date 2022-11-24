@@ -368,3 +368,26 @@ function editInPlace(s) {
  return s;
 }
 console.log(editInPlace(s));
+
+//freecodecamp js task
+
+const sum = (...arg) => arg.reduce((a, b) => a + b, 0);
+
+console.log(sum(1,2,3,4));
+
+//freecodecamp js task
+
+const stats = {
+  max: 56.78,
+  standard_deviation: 4.34,
+  median: 34.54,
+  mode: 23.87,
+  min: -0.75,
+  average: 35.85
+};
+
+// Only change code below this line
+
+const half = ({max, min}) => (max + min) / 2.0;
+
+console.log(half);
