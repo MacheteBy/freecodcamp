@@ -391,3 +391,17 @@ const stats = {
 const half = ({max, min}) => (max + min) / 2.0;
 
 console.log(half);
+
+//freecodecamp js task
+
+const createPerson = (name, age, gender) => {
+  // Only change code below this line
+  return {
+    name: `${name}`,
+    age: `${age}`,
+    gender: `${gender}`
+  };
+  // Only change code above this line
+};
+
+console.log(createPerson("Zodiac Hasbro", 56, "male"));
