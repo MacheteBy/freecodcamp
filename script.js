@@ -359,3 +359,12 @@ function checkScope() {
 }
 
 console.log(checkScope());
+
+//freecodecamp js task
+
+let s = [5, 7, 2];
+function editInPlace(s) {
+ s = s.sort();
+ return s;
+}
+console.log(editInPlace(s));
