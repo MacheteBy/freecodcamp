@@ -429,3 +429,9 @@ let starRegex = /twinkle/gi;
 let result = twinkleStar.match(starRegex);
 
 //freecodecamp js task
+
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /.un/; // Change this line
+let result = unRegex.test(exampleStr);
+
+//freecodecamp js task
