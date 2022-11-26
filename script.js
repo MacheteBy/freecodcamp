@@ -472,3 +472,6 @@ let myRegex = /<.*?>/; // it's the answer!
 let result = text.match(myRegex);
 
 //freecodecamp js task
+let reCriminals = /C+/; // Change this line
+
+//freecodecamp js task
