@@ -435,3 +435,10 @@ let unRegex = /.un/; // Change this line
 let result = unRegex.test(exampleStr);
 
 //freecodecamp js task
+
+let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /[aeiou]/gi; // Change this line
+let result = vowelRegex; // Change this line
+
+//freecodecamp js task
+
