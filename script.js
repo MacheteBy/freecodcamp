@@ -467,3 +467,8 @@ let chewieRegex = /Aa*/; // Change this line
 let result = chewieQuote.match(chewieRegex);
 
 //freecodecamp js task
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*?>/; // it's the answer!
+let result = text.match(myRegex);
+
+//freecodecamp js task
