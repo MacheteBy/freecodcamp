@@ -547,3 +547,9 @@ let pwRegex = /(?=\w{6})(?=\w*\d{2})/; // Change this line
 let result = pwRegex.test(sampleWord);
 
 //freecodecamp js task
+let myString = "Eleanor Roosevelt";
+let myRegex = /(Franklin|Eleanor) (([A-Z]\.?|[A-Z][a-z]+) )?Roosevelt/; // Change this line
+let result = myRegex.test(myString); // Change this line
+// After passing the challenge experiment with myString and see how the grouping works
+
+//freecodecamp js task
