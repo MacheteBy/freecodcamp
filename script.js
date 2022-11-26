@@ -505,3 +505,8 @@ let noNumRegex = /\D/g; // Change this line
 let result = movieName.match(noNumRegex).length;
 
 //freecodecamp js task
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i; // Change this line
+let result = userCheck.test(username);
+
+//freecodecamp js task
