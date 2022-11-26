@@ -462,3 +462,8 @@ let myRegex = /s+/g; // this is the solution
 let result = difficultSpelling.match(myRegex);
 
 //freecodecamp js task
+let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
+let chewieRegex = /Aa*/; // Change this line
+let result = chewieQuote.match(chewieRegex);
+
+//freecodecamp js task
