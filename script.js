@@ -524,3 +524,10 @@ let result = sample.match(countNonWhiteSpace);
 let ohStr = "Ohhh no";
 let ohRegex = /Oh{3,6}\sno/; // Change this line
 let result = ohRegex.test(ohStr);
+
+//freecodecamp js task
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/; // Change this line
+let result = haRegex.test(haStr);
+
+//freecodecamp js task
