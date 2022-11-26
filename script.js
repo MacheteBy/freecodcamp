@@ -420,3 +420,12 @@ class Vegetable  {
 
 const carrot = new Vegetable('carrot');
 console.log(carrot.name); // Should display 'carrot'
+
+
+//freecodecamp js task
+
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /twinkle/gi;
+let result = twinkleStar.match(starRegex);
+
+//freecodecamp js task
