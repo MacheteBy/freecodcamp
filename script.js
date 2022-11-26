@@ -607,4 +607,8 @@ let arraySum = myArray.reduce((previous, current) =>  previous + current);
 console.log(`Sum of array values is: ${arraySum}`);
 
 //freecodecamp js task
+let innerHtml = "<p>Click here to <a href=\"#Home\">return home</a></p>";
+console.log(innerHtml);
 
+
+//freecodecamp js task
