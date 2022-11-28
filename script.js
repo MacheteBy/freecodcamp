@@ -688,3 +688,7 @@ function myFunc() {
     console.log("Still going!");
   }
 } 
+
+
+let yourArray = ["a", "b", "c", true, false, 5, 6]; // Change this line
+
